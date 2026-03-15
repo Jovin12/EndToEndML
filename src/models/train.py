@@ -32,6 +32,7 @@ def train_model(df: pd.DataFrame, target_col: str = "churn"):
         prec = precision_score(y_test, y_pred)
         f1   = f1_score(y_test, y_pred)
 
+        mlflow.log_params(params)
         mlflow.log_metric("accuracy", acc)
         mlflow.log_metric("recall", rec)
         mlflow.log_metric("precision", prec)
