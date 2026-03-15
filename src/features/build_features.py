@@ -55,6 +55,8 @@ def build_features(df: pd.DataFrame, target_col: str = "churn") -> pd.DataFrame:
     if multi_cols:
         df = pd.get_dummies(df, columns = multi_cols, drop_first = True)
         print(f"Applied one-hot encoding to {len(multi_cols)} columns.")
+    
+    return df
 
     
     

@@ -1,0 +1,11 @@
+credit_score
+gender
+age
+tenure
+balance
+products_number
+credit_card
+active_member
+estimated_salary
+country_Germany
+country_Spain

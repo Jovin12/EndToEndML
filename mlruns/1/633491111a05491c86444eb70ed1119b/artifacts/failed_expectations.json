@@ -1,0 +1,5 @@
+[
+  "expect_column_values_to_not_be_null on column 'customerID' failed",
+  "expect_column_to_exist on column 'customerID' failed",
+  "expect_column_values_to_be_in_set on column 'churn' failed"
+]
